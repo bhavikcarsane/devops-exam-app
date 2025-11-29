@@ -5,6 +5,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "kastrov/devopsexamapp:latest"
+        SCANNER_HOME = tool'sonar-scanner'
     }
 
     stages {
